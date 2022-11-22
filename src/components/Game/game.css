@@ -1,0 +1,83 @@
+.game-wrapper {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-items: center;
+    margin: 20px auto;
+}
+
+/* GAMEBOARD */
+.game-board {
+    width: 70%;
+    height: 100%;
+    color: white;
+    background-color: #12355B;
+    border-radius: 20px 0 0 20px;
+}
+
+.countdown-seconds {
+    font-size: 5rem;
+}
+/* GAMEBOARD */
+
+/* SCOREBOARD */
+.scoreboard-wrapper {
+    width: 30%;
+    height: 100%;
+    color: #12355B;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.scoreboard {
+    margin-bottom: 60px;
+}
+
+.scoreboard--your-score-title {
+    margin-bottom: 5px
+}
+
+.scoreboard--current-user {
+    margin-top: 0px;
+    color: #DA2C38;
+}
+
+.leaderboard {
+    max-height: 40%;
+    /* overflow-y:scroll; */
+}
+
+.leaderboard-user {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    color: aquamarine;
+    background-color: #12355B;
+    padding: 0 20px 0 0;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+}
+
+.ranking {
+    font-weight: bold;
+    padding: 10px 15px 10px 20px;
+    border-radius: 20px 0 0 20px;
+    background-color: rgba(255,255,255,.3);
+}
+
+.user-score {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px 10px 15px;
+}
+
+.current {
+    font-weight: bold;
+    background-color: #DA2C38;
+}
+/* SCOREBOARD */
+
+

@@ -1,0 +1,74 @@
+.items-wrapper {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.items-result {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.results-message {
+    color: white;
+    animation-name: enlarge;
+    animation-duration: 2s;
+}
+
+.no-choice {
+    color: white;
+}
+
+.game-item img{
+    max-height: 100px;
+    width: auto;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+/* .rock {
+    background-color: gray;
+}
+
+.paper {
+    background-color: antiquewhite;
+}
+
+.scissors {
+    background-color: royalblue;
+} */
+
+.img-animate {
+    /* transform: rotate(3turn); */
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    animation-delay: 2s;
+}
+
+@keyframes enlarge {
+    0% {
+        font-size: 1rem;
+    }
+    50% {
+        font-size: 3rem
+    }
+    100% {
+        font-size: 1rem;
+    }
+  }
+
+  @keyframes move {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(50%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+  }
+  

@@ -1,0 +1,38 @@
+/* PLAY AGAIN BUTTON */
+.big-margin-top {
+    margin-top: 100px;
+}
+
+.small-margin-top {
+    margin-top: 30px;
+}
+
+.play-again--button {
+    color: #12355B;
+    font-weight: bold;
+    font-size:1.5rem;
+    padding: 20px 40px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+.play-again--button:hover {
+    position: relative;
+    top: -2px;
+    left: 1px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+}
+/* PLAY AGAIN BUTTON */
+
+.change-user--button {
+    font-size: 1.2rem;
+    color:aquamarine;
+    background-color: #12355B;
+    padding: 10px 40px;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+    cursor: pointer;
+}

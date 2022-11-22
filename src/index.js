@@ -6,12 +6,12 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <App />
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// rock by Gan Khoon Lay from <a href="https://thenounproject.com/browse/icons/term/rock/" target="_blank" title="rock Icons">Noun Project</a>
+// Paper by Madden Velazquez from <a href="https://thenounproject.com/browse/icons/term/paper/" target="_blank" title="Paper Icons">Noun Project</a>
+// Scissors by Baboon designs from <a href="https://thenounproject.com/browse/icons/term/scissors/" target="_blank" title="Scissors Icons">Noun Project</a>
 reportWebVitals();
